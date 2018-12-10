@@ -31,11 +31,28 @@ table.schedule td {
 
 
 /* Table Caption Styles */
-
+table.schedule caption {
+   caption-side: bottom;
+   text-align: right;
+}
 
 
 /* Row Group Styles */
+table.schedule thead {
+   background: rgb(153, 0, 153);
+   color: white;
+}
 
-
+table.schedule tfoot {
+   background: black;
+   color: white;
+}
 
 /* Column Group Styles */
+col#firstCol {
+   background: rgb(218, 210, 218);
+}
+
+col.dayCols {
+   background: rgb(255, 220, 255);
+}
